@@ -1,0 +1,18 @@
+body {
+    background: rgb(16, 16, 16);
+    font-family: "Inter Tight", sans-serif;
+    color: var(--cor-branca);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify-content-between {
+  justify-content:space-between;
+}
+
+.alinhar-no-centro {
+  align-items: center;
+}

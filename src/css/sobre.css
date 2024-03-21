@@ -1,0 +1,74 @@
+.container-sobre {
+    max-width: 1720px;
+    height: 80vh;
+    background: var(--cor-radial-primaria);
+    justify-content: center;
+    align-items: center;}
+
+.container-sobre .container {
+    justify-content: center;
+    height: 100%;
+}
+
+.container-sobre .sobre {
+    width: 50%;
+    height: 100%;
+    padding: 80px 0;
+    background-color: rgba(76, 14, 14, 0.288);
+    justify-content: center;
+}
+
+.container-sobre .sobre .informacao {
+    width: 40%;
+    margin-right: 20px;
+}
+
+.container-sobre .sobre .titulo-1,
+.container-sobre  .horario .titulo-1 {
+    color: var(--cor-primaria);
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.container-sobre .sobre .titulo-2,
+.container-sobre  .horario .titulo-2 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.container-sobre .sobre .descricao {
+    font-size: 16px;
+    font-weight: 200;
+    text-transform: none;
+    margin-bottom: 10px;
+}
+
+.container-sobre hr{
+    background: var(--cor-linear-primaria);
+    width: 50%;
+    height: 3px;
+    border: none;
+    margin: 10px 0;
+}
+
+.container-sobre img {
+    max-width: 250px;
+    max-height: 500px;
+    opacity: .7;
+} 
+
+.container-sobre .horario {
+    width: 50%;
+    height: 100%;
+    padding: 150px 0;
+    justify-content: center;
+}
+
+.container-sobre .horario .informacao-horario{
+    margin-left: 20px;
+}
+
+.container-sobre .horario .informacao-horario .hora {
+    color: var(--cor-primaria);
+}

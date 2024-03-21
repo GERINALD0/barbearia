@@ -1,0 +1,13 @@
+:root {
+    --cor-primaria:rgb(188, 125, 7);
+    --cor-branca: rgb(255, 255, 255);
+
+    --cor-radial-primaria:radial-gradient( rgb(117, 117, 117), rgb(10, 10, 10));
+    --cor-linear-primaria:linear-gradient(90deg, rgb(235, 151, 15), rgb(255, 175, 54, 28%));
+
+    --cor-gradiente-menu: linear-gradient(90deg, rgba(28,17,17), rgba(47,31,31), rgba(66,50,50), rgba(103,81,76), rgba(66,50,50), rgba(47,31,31), rgba(28,17,17));
+    
+    --cor-texto-h1: linear-gradient(180deg, rgba(108, 68, 7, 0.38), rgba(133, 85, 14, 0.585), rgba(235, 151, 25));
+
+    --cor-button: linear-gradient(135deg, rgba(203,142,52), rgba(206,148,61), rgba(171,108,51), rgba(118,75,12), rgba(85,40,14));
+}
